@@ -1,0 +1,37 @@
+{
+  "name": "Freedium Redirect",
+  "description": "Automatically redirect medium articles to Freedium",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "browser_specific_settings": {
+    "gecko_android": {},
+    "gecko": {
+      "id": "TODO: create firefox extension ID",
+      "strict_min_version": "130.0"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://freedium.cfd/*"
+      ]
+    }
+  ],
+  "permissions": [
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "*://medium.com/*",
+    "*://www.medium.com/*",
+    "*://javascript.plainenglish.io/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
