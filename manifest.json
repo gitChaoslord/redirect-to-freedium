@@ -1,12 +1,13 @@
 {
-  "name": "Freedium Redirect",
+  "name": "Redirect-to-Freedium",
   "description": "Automatically redirect medium articles to Freedium",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "license": "MIT",
   "manifest_version": 3,
   "browser_specific_settings": {
     "gecko_android": {},
     "gecko": {
-      "id": "TODO: create firefox extension ID",
+      "id": "freedium-redirect@com.gitchaoslord.ext",
       "strict_min_version": "130.0"
     }
   },

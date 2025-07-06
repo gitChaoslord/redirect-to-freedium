@@ -1,2 +1,4 @@
 _metadata
 *.zip
+web-ext-artifacts
+.web-ext-config.*
