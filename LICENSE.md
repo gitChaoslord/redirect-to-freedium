@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2014 [Project Contributors](https://github.com/gitChaoslord/freedium-redirect/graphs/contributors)
+Copyright (c) 2014 [Project Contributors](https://github.com/gitChaoslord/redirect-to-freedium/graphs/contributors)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
