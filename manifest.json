@@ -1,14 +1,27 @@
 {
   "name": "Redirect-to-Freedium",
   "description": "Automatically redirect medium articles to Freedium",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "manifest_version": 3,
   "browser_specific_settings": {
-    "gecko_android": {},
+    "gecko_android": {
+      "id": "freedium-redirect@com.gitchaoslord.ext",
+      "strict_min_version": "113.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    },
     "gecko": {
       "id": "freedium-redirect@com.gitchaoslord.ext",
-      "strict_min_version": "130.0"
+      "strict_min_version": "113.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
     }
   },
   "content_scripts": [
